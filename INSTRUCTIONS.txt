@@ -1,0 +1,2 @@
+Open the project in editor and open the terminal. Type: node server.js
+This will launch the server. Open browser and go to localhost:3000 to access the page.

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Creator</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<h1>Quiz Creator</h1>
+<p id="test">test</p>
+
+<form action="/savefile" method="POST" >
+    <fieldset name="questions">
+    <label for="question0">Question:</label><br>
+    <input type="text" id="question0" name="question" value=""><br>
+
+    <input type="hidden" id="image" name="image" value="no_image"><br>
+
+    <label for="answers0.0">Answer 1:</label><br>
+    <input type="text" id="answers0.0" name="answers" value=""><br>
+    <label for="answers0.1">Answer 2:</label><br>
+    <input type="text" id="answers0.1" name="answers" value=""><br>
+    <label for="answers0.2">Answer 3:</label><br>
+    <input type="text" id="answers0.2" name="answers" value=""><br>
+    <label for="answers0.3">Answer 4:</label><br>
+    <input type="text" id="answers0.3" name="answers" value=""><br>
+
+    <label for="correct0">Correct:</label><br>
+    <input type="text" id="correct0" name="correct" value=""><br>
+
+
+
+    <label for="question1">Question:</label><br>
+    <input type="text" id="question1" name="question" value=""><br>
+
+    <input type="hidden" id="image1" name="image" value="no_image"><br>
+
+    <label for="answers0.0">Answer 1:</label><br>
+    <input type="text" id="answers1.0" name="answers" value=""><br>
+    <label for="answers0.1">Answer 2:</label><br>
+    <input type="text" id="answers1.1" name="answers" value=""><br>
+    <label for="answers0.2">Answer 3:</label><br>
+    <input type="text" id="answers1.2" name="answers" value=""><br>
+    <label for="answers0.3">Answer 4:</label><br>
+    <input type="text" id="answers1.3" name="answers" value=""><br>
+
+    <input type="radio" id="correct1.0" name="correct" value="0">
+    <label for="correct1.0">1</label><br>
+    <input type="radio" id="correct1.1" name="correct" value="1">
+    <label for="correct1.1">2</label><br>
+    <input type="radio" id="correct1.2" name="correct" value="2">
+    <label for="correct1.2">3</label><br>
+    <input type="radio" id="correct1.3" name="correct" value="3">
+    <label for="correct1.3">4</label><br><br>
+
+
+    <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<script src="creator.js"></script>
+</body>
+</html>

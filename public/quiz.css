@@ -1,0 +1,149 @@
+﻿@charset "UTF-8";
+
+body {
+    background-color: #5f5f5f;
+    background-image: url("media/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+        color: white;
+        font-size: 4vw;
+        font-family: "MS Gothic";
+}
+
+h2{
+        color: white;
+        font-size: 2vw;
+        font-family: "MS UI Gothic";
+}
+
+h3{
+        color: white;
+        font-size: 1.5vw;
+        font-family: "MS UI Gothic";
+}
+
+
+
+.quizzie {
+        width: 200px;
+        position:absolute;
+        left:10px;
+        top:10px;
+}
+
+.logo {
+        margin-top: 2%;
+        width: 25vw;
+        margin-bottom: 2%;
+}
+
+#logo2 {
+        width: 10vw;
+}
+
+.div1 {
+        clear: both;
+        width: 88%;
+        height: auto;
+        display: none;
+    }
+.div2 {
+        margin-top: 5%;
+        display: none;
+}
+
+#div3 {
+        clear: both;
+        width: 88%;
+        height: auto;
+    }
+#div4 {
+        margin-top: 1%;
+        width: 88%;
+}
+#welcome2 {
+        display: none;
+}
+
+
+
+#question2 {
+        opacity: 0;
+}
+
+#quizimage {
+    height: 12vw;
+}
+
+#ansbtn1,#ansbtn2,#ansbtn3,#ansbtn4,#ansbtn5 {
+        background-color: #000000;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, #285b03, #4bf512);
+        color: white;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        width: 30vw;
+        height: 7vw;
+      }
+
+      #openquestion {
+        display: none;
+      }
+
+      #resbtn1 {
+        background-color: #000000;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, #285b03, #4bf512);
+        color: white;
+        padding: 20px;
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        display: none;
+      }
+
+      #startbtn1 {
+        background-color: #000000;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, #285b03, #4bf512);
+        color: white;
+        padding: 20px;
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+      }
+
+      #startbtn2 {
+        background-color: #000000;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, #285b03, #4bf512);
+        color: white;
+        padding: 20px;
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        display: none;
+      }
+
+
+#ansbtn1:hover, #ansbtn2:hover, #ansbtn3:hover, #ansbtn4:hover, #resbtn1:hover, #startbtn1:hover, #startbtn2:hover {
+    background-color: #266d0b;
+}
+
+.ans {
+        color:#ff0000;
+}

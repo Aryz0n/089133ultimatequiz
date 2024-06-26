@@ -1,0 +1,35 @@
+{
+    "quizname": "Red Dead Redemption 2 Quiz",
+    "questions": [
+      {
+        "question": "Wie is de main character?",
+        "image": "no_image",
+        "answers": ["John", "Arthur", "Dutch", "Sadie"],
+        "correct": "1"
+      },
+      {
+        "question": "Hoelang is er aan de game gewerkt?",
+        "image": "no_image",
+        "answers": ["3 Jaar", "5 Jaar", "6 Jaar", "8 Jaar"],
+        "correct": "3"
+      },
+      {
+        "question": "In welk jaar vind de game plaats",
+        "image": "no_image",
+        "answers": ["1909", "1899", "1809", "1890"],
+        "correct": "1"
+      },
+      {
+        "question": "De hoeveelste Red Dead game is dit?",
+        "image": "no_image",
+        "answers": ["1e", "2e", "3e", "4e"],
+        "correct": "2"
+      },
+      {
+        "question": "In welk jaar is de game gereleased?",
+        "image": "no_image",
+        "answers": ["2016", "2018", "2019", "2020"],
+        "correct": "1"
+      }
+    ]
+  }

@@ -1,0 +1,65 @@
+{
+    "quizname": "The Doom Quiz",
+    "questions": [
+      {
+        "question": "In welk jaar kwam het eerste DOOM game uit?",
+        "image": "no_image",
+        "answers": ["1993", "1994", "2016", "1999"],
+        "correct": "0"
+      },
+      {
+        "question": "Wat is de naam van deze demon?",
+        "image": "media/demon1.webp",
+        "answers": ["Baron of Hell"],
+        "correct": "BARON OF HELL"
+      },
+      {
+        "question": "Hoeveel wapens waren er in de eerste DOOM game?",
+        "image": "no_image",
+        "answers": ["8", "10", "6", "5"],
+        "correct": "0"
+      },
+      {
+        "question": "Wat is de naam van deze wapen?",
+        "image": "media/weapon1.webp",
+        "answers": ["Plasmagun", "Chaingun", "BFG 9000", "Rocket Launcher"],
+        "correct": "2"
+      },
+      {
+        "question": "Wie was de eindbaas in Doom 2?",
+        "image": "no_image",
+        "answers": ["Spider Mastermind", "Cyberdemon", "Icon of Sin", "Mother Demon"],
+        "correct": "2"
+      },
+      {
+        "question": "Wat is de naam van deze wapen?",
+        "image": "media/weapon2.webp",
+        "answers": ["Unmaykr", "Unmaker", "Plasmagun", "BFG 9000"],
+        "correct": "0"
+      },
+      {
+        "question": "Wat is de naam van deze demon?",
+        "image": "media/demon2.webp",
+        "answers": ["Pinky", "Mancubus", "Cyberdemon", "Cybermancubus"],
+        "correct": "3"
+      },
+      {
+        "question": "In DOOM (2016) kan elke demon worden afgemaakt met een melee attack. Er is maar een demon waarbij dat niet kan. Welke demon is dat?",
+        "image": "no_image",
+        "answers": ["Spider Mastermind", "Cyberdemon", "Baron of Hell", "Lost Soul"],
+        "correct": "3"
+      },
+      {
+        "question": "Wat is de naam van de demon die onzichtbaar is?",
+        "image": "no_image",
+        "answers": ["Archvile", "Lost Soul", "Nightmare Imp", "Spectre"],
+        "correct": "3"
+      },
+      {
+        "question": "Elke Doom game heeft een Berserk powerup. Maar in slechts een game maakt Berserk jou onsterfelijk. In welke Doom game was dat het geval?",
+        "image": "no_image",
+        "answers": ["DOOM (2016)", "Doom 3", "DOOM ETERNAL", "Doom 64"],
+        "correct": "1"
+      }
+    ]
+  }
